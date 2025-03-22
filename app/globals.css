@@ -2,20 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "Pretendard";
-  src: url("/fonts/PretendardVariable.woff2") format("woff2");
-  font-weight: 100 900;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "ESAManru";
-  src: url("/fonts/ESAManru.woff2") format("woff2");
-  font-weight: normal;
-  font-display: swap;
-}
-
 :root {
   --iway-blue: #000a5e; /* PANTONE 281 C, RGB 0 10 94 */
   --iway-blue-light: #001394;
@@ -69,15 +55,6 @@
   }
   body {
     @apply bg-background text-foreground;
-    font-family: "Pretendard", sans-serif;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "Orbitron", "ESAManru", sans-serif;
   }
 }
 

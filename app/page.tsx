@@ -33,7 +33,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="wave-gradient h-[80vh] flex items-center justify-center relative">
         <div className="container mx-auto px-4 z-10 text-center">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 font-['Orbitron'] tracking-wider">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 font-orbitron tracking-wider">
             JUST IN OUR WAY
           </h1>
           <p className="text-xl text-white/80 max-w-2xl mx-auto mb-8">
@@ -60,7 +60,7 @@ export default function Home() {
       {/* Latest News Section */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-10 text-center font-['Orbitron']">LATEST NEWS</h2>
+          <h2 className="text-3xl font-bold mb-10 text-center font-orbitron">LATEST NEWS</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {latestNews.map((item) => (
               <div key={item.id} className="bg-white rounded-lg overflow-hidden shadow-md card-hover">

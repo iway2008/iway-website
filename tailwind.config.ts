@@ -19,6 +19,11 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['var(--font-inter)'],
+        orbitron: ['var(--font-orbitron)'],
+        esamanru: ['var(--font-esamanru)'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
